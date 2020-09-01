@@ -14,7 +14,7 @@
 
 然后，在你自己仓库的 Settings 的 Secrets 中设置以下信息：
 
-- `BUPT_USERNAME`: 你用来登录的学号；
+- `BUPT_USERNAME`: 你用来登录的学号;
 - `BUPT_PASSWORD`: 你用来登录的密码。
 
 ## 检查结果
@@ -37,7 +37,7 @@
 ```yml
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
 ```
 
 格式是标准的 cron 格式，第一个数字代表分钟，第二个数字代表小时。例如，`0 1 * * *` 表示在每天
